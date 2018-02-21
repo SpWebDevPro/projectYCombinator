@@ -1,0 +1,95 @@
+body {
+	display: block;
+	font-family: Verdana, Geneva, sans-serif; 
+	font-size: 10pt; 
+	color: #828282;
+	width: 80%;
+	margin: auto;
+}
+
+
+a {
+	color:inherit;
+	text-decoration: none;
+	color: black;
+}
+
+/**********TOP MENU ************/
+
+#myheader {
+	margin-top: 1%;
+	background-color: #ff6600;
+	padding-top: 0.2%;
+	padding-bottom: 0.2%;
+	padding-left: 0.3%;
+	padding-right: 0.3%;
+}
+
+img {
+	border:1px white solid;
+	vertical-align:top;
+}
+#logo {
+	font-weight: bold;
+}
+
+.topMenuLi {
+	display: inline;
+	vertical-align: middle;
+}
+
+#login {
+	float: right;
+}
+
+
+/**********MAIN DISPLAY ************/
+
+
+#mybody {
+	background-color: #F6F6EF;
+	padding-top: 0.7%;
+	padding-bottom: 1%;
+}
+
+.container {
+	display: flex;
+}
+
+.articleContainer{
+	padding-top: 0.5%;
+}
+
+.title {
+	color: black;
+	font-size: 10pt;
+}
+
+.website {
+	color: #828282;
+	font-size: 8pt;
+}
+
+.subtext {
+	font-size: 7pt;
+	color: #828282;
+}
+
+
+/**********BOTTOM MENU ************/
+
+#myfooter {
+	background-color: #F6F6EF;
+	border-top: 2px solid #ff6600;
+	text-align: center;
+	padding-top: 1%;
+}
+
+.footerTitle {
+	font-size: 10pt;
+}
+
+.bottomMenuLi {
+	display: inline;
+	font-size: 8pt;
+}
