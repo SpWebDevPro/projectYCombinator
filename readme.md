@@ -5,14 +5,14 @@ We had to reproduce the web site https://news.ycombinator.com/ using the technol
 I have used:
 - AngularJS;
 - Gulp as task runner : this was new for me, with the usage of sass, minify, uglify and browserSync.
-- Angular-moment : https://github.com/urish/angular-moment
+- Angular-moment : https://github.com/urish/angular-moment  
 
 
 This project will be the oportunity to test new things as long as i am attending Web Developer courses at Simplon Sénart.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine.
+These instructions will get you a copy of the project up and running on your local machine.  
 
 ### Prerequisites
 
