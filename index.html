@@ -4,7 +4,7 @@
 	<title>Projet YCombinator</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="dist/style/style.css">
 
 </head>
 <body ng-app="myApp">
@@ -17,18 +17,30 @@
 		<myfooter></myfooter>
 	</div>
 
-<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+<!-- *********** cdn ressources ************ -->
+<script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+<!-- *********** dependencies ************ -->
+
 
 <script src="node_modules/angular/angular.min.js"></script>
 <script src="node_modules/moment/moment.js"></script>
 <script src="node_modules/angular-moment/angular-moment.js"></script>
-<script src="main.js"></script>
-<script src="model.js"></script>
-<script src="components/article/article.js" type="text/javascript"></script>
-<script src="components/footer/footer.js" type="text/javascript"></script>
-<script src="components/header/header.js" type="text/javascript"></script>
-<script src="components/listarticles/listarticles.js" type="text/javascript"></script>
 
+
+<!-- *********** internal links ************ -->
+<!-- <script src="src/scripts/main.js"></script>
+<script src="src/scripts/model.js"></script> -->
+<!-- will need to change src by dist-->
+<script src="dist/scripts/main.js"></script>
+<script src="dist/scripts/model.js"></script>
+
+
+<script src="src/components/article/article.js" type="text/javascript"></script>
+<script src="src/components/footer/footer.js" type="text/javascript"></script>
+<script src="src/components/header/header.js" type="text/javascript"></script>
+<script src="src/components/listarticles/listarticles.js" type="text/javascript"></script>
 
 
 </body>
