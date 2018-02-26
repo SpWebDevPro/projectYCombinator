@@ -6,7 +6,7 @@ I have used:
 - AngularJS;
 - Gulp as task runner : this was new for me, with the usage of sass, minify, uglify and browserSync.
 - Angular-moment : https://github.com/urish/angular-moment
-- 
+
 
 This project will be the oportunity to test new things as long as i am attending Web Developer courses at Simplon Sénart.
 

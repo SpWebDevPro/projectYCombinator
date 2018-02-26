@@ -45,13 +45,14 @@ angular.module('myApp').filter('urlShortener', function(){
 // set up a sass / gulp task: DONE
 // prepare a read me explaining my difficulties and how i have solved them, 
 //plus linked towards tutos: DONE
+//solve the browsersync pb with style watch task: DONE
 
 
 //next:
 
 // make usable the bottom filter
-//solve the browsersync pb with style watch task
+// number of news should be increased
 // put the key as a parameter in .env? // voir le passer dans les headers: 
 // check wether i can solve cross origin
-//implement usage of BABEL
+//implement usage of BABEL: make a fork and rewrite the code in ES6 + use BABEL
 

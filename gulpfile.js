@@ -38,8 +38,11 @@ gulp.task('default', ['style','scripts']);
 
 gulp.task('watch', ['default','browser-sync'], function(){
 	console.log('the task watch has been launched');
-	gulp.watch("src/style/**/*.scss", ['style', reload]);
-	gulp.watch("src/scripts/**/*.js", ['scripts', reload]);
+	// gulp.watch("src/style/**/*.scss", ['style', reload]);
+	// gulp.watch("src/scripts/**/*.js", ['scripts', reload]);
+	gulp.watch("src/style/**/*.scss", ['style']);
+	gulp.watch("src/scripts/**/*.js", ['scripts']);
+	browserSync.reload();
 })
 
 
