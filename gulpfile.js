@@ -3,7 +3,7 @@ var uglify = require ('gulp-uglify');
 var minifyCss = require ('gulp-minify-css');
 var sass = require ('gulp-sass');
 var browserSync = require('browser-sync').create();
-var reload = browserSync.reload();
+// var reload = browserSync.reload();
 
 
 gulp.task('browser-sync', function(){

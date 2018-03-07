@@ -1,11 +1,11 @@
 <div id="mybody">
-<article ng-repeat="article in $ctrl.datas.articles | limitTo : 15" article="article"></article>
-
+<article ng-repeat="article in $ctrl.datas.articles | limitTo : 15 | filter : searchbox" article="article"></article>
+</div>
 
 <!-- Enable to get the list of articles.
 the component listarticles is inserted in index.html as a tag.
-the attribute datas is set in the listarticles tag, and also defines the component's binding, set in listarticles.js -->
+the attribute datas is set in the listarticles tag, and also defines the component's binding, set in listarticles.js
+datas = listOfArticle in the tag, which means we can get listOfArticle from the controller in our component listarticles
+the we link listarticles with article with the binding'article'-->
 
-<!-- now we need to do a ng-repeat from the $ctrl.datas.articles -->
 
-</div>
